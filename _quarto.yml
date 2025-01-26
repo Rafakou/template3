@@ -3,12 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "template3"
+  title: "Cyprus Events Guide"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: tab1.qmd
+        text: About us
+    logo: images/logo_tepak.png
 
 format:
   html:
